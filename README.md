@@ -1,2 +1,3 @@
 # protractor
-Alguns testes simples com protractor
+Meus primeiros passos com testes usando o protractor. 
+
