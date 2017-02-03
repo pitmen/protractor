@@ -1,10 +1,6 @@
 # protractor
 Meus primeiros passos com testes usando o protractor. 
 
-Funcionamento de testes automatizados de Login com protractor.
-
-Ainda faltam algumas correções. Não usar!!!!
-
 # Como usar
 
 Acesse: 
