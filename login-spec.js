@@ -4,13 +4,13 @@ var HomePage = require('../protractor/po/HomePage');
 describe('LogIn', function () {
   var home = new HomePage();
   var login = new loginPage();
-  var usuario = 'rafael.peixoto';
-  var senha = 'senha123';
+  var usuario = 'tex.peixoto';
+  var senha = 'Usjt3006._';
 
   beforeEach(function () {
     browser.ignoreSynchronization = true;
     //Aqui você coloca qual a página que vai ser acessar
-    browser.get('https://www.paginaficticia.com.br');
+    browser.get('http://sandbox.teleport.com.br/0');
     
     expect(browser.getTitle()).toEqual('Login');
   });
