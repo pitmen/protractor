@@ -3,9 +3,14 @@ Meus primeiros passos com testes usando o protractor.
 
 Funcionamento de testes automatizados de Login com protractor.
 
+Ainda faltam algumas correções. Não usar!!!!
+
 # Como usar
 
-> Acesse: http://www.protractortest.org/#/
+Acesse: 
+
+>http://www.protractortest.org/#/
+
 Obs: é necessário ter o NodeJs instalado antes.
 
 Baixe o projeto para sua máquina.
