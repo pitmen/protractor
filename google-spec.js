@@ -6,13 +6,15 @@ describe('search in google', function () {
     beforeEach(function () {
         browser.ignoreSynchronization = true;
         //Aqui você coloca qual a página que vai ser acessar
-        browser.get('http://www.google.com.br');
-
-        expect(browser.getTitle()).toEqual('Google');
+        browser.get('http://www.google.com.br');        
     });
 
     it('fill search field', function () {
         google.fillSearchField();
+        // Não faça isso. 
+        // Coloquei essa linha para que ficasse fácil a visualização.
         browser.sleep(5000);
+
+        expect(browser.getTitle()).toEqual('Google');
     })
 })

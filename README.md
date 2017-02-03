@@ -1,6 +1,6 @@
 # protractor
 Meus primeiros passos com testes usando o protractor. 
-
+<!--
 # Como usar
 
 Acesse: 
@@ -19,4 +19,4 @@ Abra uma nova janela do terminal, vá até o diretório do projeto e digite:
 
 > protractor conf.js
 
-
+-->
