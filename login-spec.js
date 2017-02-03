@@ -1,4 +1,6 @@
-var loginPage = require('../protractor-tests/loginPage');
+var loginPage = require('../protractor/po/loginPage');
+var HomePage = require('../protractor/po/HomePage');
+
 describe('LogIn', function () {
   var home = new HomePage();
   var login = new loginPage();

@@ -4,9 +4,9 @@ exports.config = {
   framework: 'jasmine',
   // utilizei o phantomjs para fazer o test.
   capabilities: {
-    'browserName': 'phantomjs',
-    'phantomjs.binary.path': require('phantomjs').path,
-    'phantomjs.cli.args': ['--ignore-ssl-errors=true', '--web-security=false']
+    'browserName': 'chrome',
+    //'phantomjs.binary.path': require('phantomjs').path,
+    //'phantomjs.cli.args': ['--ignore-ssl-errors=true', '--web-security=false']
   },
 
 };
