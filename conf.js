@@ -1,6 +1,6 @@
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['login-spec.js'],
+  specs: ['google-spec.js'],
   framework: 'jasmine',
   // utilizei o phantomjs para fazer o test.
   capabilities: {
